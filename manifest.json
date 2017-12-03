@@ -1,0 +1,7 @@
+{
+  "name": "Itapetininga Shopping",
+  "short_name": "Itapê Shopping",
+  "lang": "pt-BR",
+  "start_url": "/app.html",
+  "display": "standalone"
+}

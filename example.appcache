@@ -1,0 +1,17 @@
+CACHE MANIFEST
+# v 0.1.1
+CACHE:
+./app.html
+./lojas.html
+./extra.html
+./js/materialize.js
+./js/materialize.min.js
+./js/jquery-3.2.1.min.js
+./js/jquery-3.2.1.min.js
+./js/j.js
+./css/materialize.css
+./css/materialize.min.css
+
+FALLBACK:
+NETWORK:
+*
