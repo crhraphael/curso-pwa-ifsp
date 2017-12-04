@@ -5,7 +5,11 @@ $('.code-scan').on('click', function() { //quando clicar no elemento com a class
     Quagga.init({ //configuração inicial mínima do Quagga
         inputStream : {
             name : "Live",
-            type : "LiveStream"
+            type : "LiveStream",
+            constraints: {
+                width: $(window).width(),
+                height: 255
+            }
         },
         decoder : {
             readers : ["code_128_reader"]
