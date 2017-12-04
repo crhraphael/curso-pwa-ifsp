@@ -2,7 +2,11 @@ $('body').on('click', '.code-scan', function() {
     Quagga.init({
         inputStream : {
             name : "Live",
-            type : "LiveStream"
+            type : "LiveStream",
+            constraints: {
+                width: $(window).width(),
+                height: 255
+            }
         },
         decoder : {
             readers : ["code_128_reader"]
